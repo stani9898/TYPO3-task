@@ -1,0 +1,7 @@
+plugin.tx_projects {
+    view {
+        templateRootPaths.0 = EXT:projects/Resources/Private/Templates/
+        partialRootPaths.0 = EXT:projects/Resources/Private/Partials/
+        layoutRootPaths.0 = EXT:projects/Resources/Private/Layouts/
+    }
+}

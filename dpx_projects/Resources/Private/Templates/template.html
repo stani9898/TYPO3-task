@@ -1,0 +1,16 @@
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Status</th>
+    <th>Image</th>
+  </tr>
+  <f:for each="{projects}" as="project">
+    <tr>
+      <td>{project.title}</td>
+      <td>{project.description}</td>
+      <td>{project.status}</td>
+      <td><f:image src="{project.image}" alt="Project Image" /></td>
+    </tr>
+  </f:for>
+</table>

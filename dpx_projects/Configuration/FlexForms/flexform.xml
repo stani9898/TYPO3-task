@@ -1,0 +1,28 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Project List</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.list>
+                        <TCEforms>
+                            <label>Projects List</label>
+                            <config>
+                                <type>user</type>
+                                <userFunc>Vendor\Projects\Controller\ProjectController->listAction</userFunc>
+                                <parameters>
+                                    <extensionKey>projects</extensionKey>
+                                    <controller>Project</controller>
+                                    <action>list</action>
+                                </parameters>
+                            </config>
+                        </TCEforms>
+                    </settings.list>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>
